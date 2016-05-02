@@ -2,7 +2,7 @@ var osc = require('node-osc'),
     io = require('socket.io').listen(1236);
 
 var oscClient;
-var url = '127.0.0.1';
+var url = '10.1.7.25';
 var puerto = 1234;
 oscClient = new osc.Client(url,puerto);
 

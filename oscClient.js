@@ -3,8 +3,8 @@ var osc = require('node-osc');
 
 var  oscClient;
 
-var url = '127.0.0.1';
-var puerto = 1235;
+var url = '10.1.7.216';
+var puerto = 1234;
 //mensaje = [];
 oscClient = new osc.Client(url,puerto);
 rfid = '12345678';
